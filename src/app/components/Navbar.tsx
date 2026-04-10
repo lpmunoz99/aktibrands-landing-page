@@ -23,7 +23,7 @@ export function Navbar() {
       style={{ borderColor: "rgba(0,0,0,0.08)", fontFamily: "'Montserrat Alternates', sans-serif" }}
     >
       <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
-        <AktiBrandsLogo size={80} showText horizontal />
+        <AktiBrandsLogo size={50} showText horizontal />
 
         {/* Desktop nav */}
         <nav className="hidden md:flex items-center gap-8">

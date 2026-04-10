@@ -6,7 +6,7 @@ const activations = [
     name: "Neuro-Challenge",
     icon: Monitor,
     accent: "#47C9A2",
-    price: "Q. 24,150.00",
+    price: "Q. 27,700.00",
     priceNote: "+IVA / mes",
     description:
       "Pantalla táctil adaptable para ruleta con premios o memoría. Incluye branding de la marca tanto en el mupie como la personalización del juego.",
@@ -18,7 +18,7 @@ const activations = [
     name: "Zona de Reacción",
     icon: Activity,
     accent: "#FC0036",
-    price: "Q. 27,750.00",
+    price: "Q. 31,900.00",
     priceNote: "+IVA / mes",
     description:
       "Pelotas o barras que caen de forma aleatoria, gana el usuario que logre atrapar todas. Incluye branding de la marca.",
@@ -30,7 +30,7 @@ const activations = [
     name: "Energy-Rush",
     icon: Zap,
     accent: "#FC0036",
-    price: "Q. 28,150.00",
+    price: "Q. 32,370.00",
     priceNote: "+IVA / mes",
     description:
       "Piso táctil que va cargando la batería de la pantalla según la velocidad del usuario. Pon a prueba tu energía.",

@@ -14,7 +14,7 @@ export function AktiBrandsLogo({
   horizontal = false,
 }: AktiBrandsLogoProps) {
   
-  const logoSrc = "/logo-aktibrands (2).svg";
+  const logoSrc = "/logo-aktibrands.svg";
 
   // Definimos un tamaño de texto que no dependa obligatoriamente de 'size'
   // Si no pasas 'textSize', se queda en 22px (o lo que prefieras)
