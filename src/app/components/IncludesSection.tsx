@@ -109,7 +109,7 @@ export function IncludesSection() {
           <div className="relative">
             <div className="relative rounded-3xl overflow-hidden" style={{ aspectRatio: "4/5" }}>
               <img
-                src="/stand.png"
+                src="/stand.jpg"
                 alt="Activación de marca en stand"
                 className="w-full h-full object-cover"
               />

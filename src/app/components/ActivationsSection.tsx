@@ -11,7 +11,7 @@ const activations = [
     description:
       "Pantalla táctil adaptable para ruleta con premios o memoría. Incluye branding de la marca tanto en el mupie como la personalización del juego.",
     details: ["Ruleta con premios", "Juego de memoría", "Branding personalizado en el tótem", "Interfaz totalmente customizable"],
-    image: "/neuro-challenge.png", // <-- Reemplaza con el nombre de tu imagen
+    image: "/neuro-challenge.jpg", // <-- Reemplaza con el nombre de tu imagen
   },
   {
     id: "zona-reaccion",
@@ -23,7 +23,7 @@ const activations = [
     description:
       "Pelotas o barras que caen de forma aleatoria, gana el usuario que logre atrapar todas. Incluye branding de la marca.",
     details: ["Dinámica de captura en tiempo real", "Niveles de dificultad ajustables", "Branding completo de la marca", "Competitivo y divertido"],
-    image: "/zona-reaccion.png", // <-- Reemplaza con el nombre de tu imagen
+    image: "/zona-reaccion.jpg", // <-- Reemplaza con el nombre de tu imagen
   },
   {
     id: "energy-rush",
@@ -35,7 +35,7 @@ const activations = [
     description:
       "Piso táctil que va cargando la batería de la pantalla según la velocidad del usuario. Pon a prueba tu energía.",
     details: ["Piso táctil interactivo", "Medición de velocidad en tiempo real", "Pantalla con barra de energía", "Branding de la marca incluido"],
-    image: "/energy-rush.png", // <-- Reemplaza con el nombre de tu imagen
+    image: "/energy-rush.jpg", // <-- Reemplaza con el nombre de tu imagen
   },
 ];
 
