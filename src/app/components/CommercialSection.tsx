@@ -101,44 +101,7 @@ export function CommercialSection() {
           })}
         </div>
 
-        {/* Payment summary */}
-        <div className="grid md:grid-cols-2 gap-6">
-          <div
-            className="p-7 rounded-2xl"
-            style={{ backgroundColor: "white", border: "1.5px solid rgba(0,0,0,0.06)", boxShadow: "0 4px 20px rgba(0,0,0,0.04)" }}
-          >
-            <div
-              className="text-xs font-bold mb-2 uppercase tracking-wider"
-              style={{ color: "#FC0036" }}
-            >
-              Primer pago
-            </div>
-            <div style={{ fontSize: "2.2rem", fontWeight: 900, color: "#000", lineHeight: 1 }}>
-              50%
-            </div>
-            <div style={{ fontSize: "0.9rem", color: "#666", fontWeight: 500, marginTop: 8 }}>
-              10 días antes de iniciar la activación
-            </div>
-          </div>
-
-          <div
-            className="p-7 rounded-2xl"
-            style={{ backgroundColor: "white", border: "1.5px solid rgba(0,0,0,0.06)", boxShadow: "0 4px 20px rgba(0,0,0,0.04)" }}
-          >
-            <div
-              className="text-xs font-bold mb-2 uppercase tracking-wider"
-              style={{ color: "#47C9A2" }}
-            >
-              Segundo pago
-            </div>
-            <div style={{ fontSize: "2.2rem", fontWeight: 900, color: "#000", lineHeight: 1 }}>
-              50%
-            </div>
-            <div style={{ fontSize: "0.9rem", color: "#666", fontWeight: 500, marginTop: 8 }}>
-              8 días después de finalizado el mes
-            </div>
-          </div>
-        </div>
+        
       </div>
     </section>
   );

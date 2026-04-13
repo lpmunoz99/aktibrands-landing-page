@@ -6,8 +6,6 @@ const activations = [
     name: "Neuro-Challenge",
     icon: Monitor,
     accent: "#47C9A2",
-    price: "Q. 27,700.00",
-    priceNote: "+IVA / mes",
     description:
       "Pantalla táctil adaptable para ruleta con premios o memoría. Incluye branding de la marca tanto en el mupie como la personalización del juego.",
     details: ["Ruleta con premios", "Juego de memoría", "Branding personalizado en el tótem", "Interfaz totalmente customizable"],
@@ -18,8 +16,6 @@ const activations = [
     name: "Zona de Reacción",
     icon: Activity,
     accent: "#FC0036",
-    price: "Q. 31,900.00",
-    priceNote: "+IVA / mes",
     description:
       "Pelotas o barras que caen de forma aleatoria, gana el usuario que logre atrapar todas. Incluye branding de la marca.",
     details: ["Dinámica de captura en tiempo real", "Niveles de dificultad ajustables", "Branding completo de la marca", "Competitivo y divertido"],
@@ -30,8 +26,6 @@ const activations = [
     name: "Energy-Rush",
     icon: Zap,
     accent: "#FC0036",
-    price: "Q. 32,370.00",
-    priceNote: "+IVA / mes",
     description:
       "Piso táctil que va cargando la batería de la pantalla según la velocidad del usuario. Pon a prueba tu energía.",
     details: ["Piso táctil interactivo", "Medición de velocidad en tiempo real", "Pantalla con barra de energía", "Branding de la marca incluido"],
@@ -130,23 +124,7 @@ export function ActivationsSection() {
                     ))}
                   </ul>
 
-                  {/* Price */}
-                  <div
-                    className="pt-4 border-t flex items-end justify-between"
-                    style={{ borderColor: "rgba(0,0,0,0.06)" }}
-                  >
-                    <div>
-                      <div style={{ fontSize: "0.75rem", color: "#999", fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.06em" }}>
-                        Precio mensual
-                      </div>
-                      <div style={{ fontSize: "1.4rem", fontWeight: 900, color: "#000", lineHeight: 1.2 }}>
-                        {act.price}
-                      </div>
-                      <div style={{ fontSize: "0.75rem", color: "#999", fontWeight: 500 }}>
-                        {act.priceNote}
-                      </div>
-                    </div>
-                  </div>
+                  
                 </div>
               </div>
             );
