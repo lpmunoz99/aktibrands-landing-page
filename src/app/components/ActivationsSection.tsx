@@ -61,8 +61,8 @@ export function ActivationsSection() {
             className="mt-4 max-w-2xl mx-auto"
             style={{ color: "#666", fontSize: "1.05rem", lineHeight: 1.7, fontWeight: 400 }}
           >
-            Cada activación se diseña para conectar emocionalmente con los colaboradores, 
-            generar recordación de marca y crear momentos memorables.
+            Estas son algunas de las activaciones, las cuales estan diseñadas para conectar emocionalmente con los participantes, 
+            generando recordación de marca y crear momentos memorables.
           </p>
         </div>
 

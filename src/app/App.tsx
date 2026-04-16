@@ -13,7 +13,6 @@ export default function App() {
       <Hero />
       <ActivationsSection />
       <IncludesSection />
-      <CommercialSection />
       <CTASection />
       <Footer />
     </div>
