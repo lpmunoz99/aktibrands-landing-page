@@ -66,27 +66,46 @@ export function CTASection() {
         </div>
 
         {/* Contact info cards */}
-        <div className="grid sm:grid-cols-3 gap-4 max-w-2xl mx-auto">
-          {[
-            { label: "Email", value: "administracion@aktibrands.com", icon: "✉️" },
-            { label: "Respuesta", value: "En menos de 24h", icon: "⚡" },
-            { label: "Ubicación", value: "Guatemala", icon: "📍" },
-          ].map((item) => (
-            <div
-              key={item.label}
-              className="p-4 rounded-2xl text-center"
-              style={{ backgroundColor: "rgba(255,255,255,0.05)", border: "1px solid rgba(255,255,255,0.07)" }}
-            >
-              <div style={{ fontSize: "1.5rem", marginBottom: 6 }}>{item.icon}</div>
-              <div style={{ fontSize: "0.75rem", color: "rgba(255,255,255,0.4)", fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.06em" }}>
-                {item.label}
-              </div>
-              <div style={{ fontSize: "0.85rem", color: "rgba(255,255,255,0.8)", fontWeight: 600, marginTop: 4 }}>
-                {item.value}
-              </div>
-            </div>
-          ))}
-        </div>
+<div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-3xl mx-auto">
+  {[
+    { label: "Email", value: "administracion@aktibrands.com", icon: "✉️" },
+    { label: "Respuesta", value: "En menos de 24h", icon: "⚡" },
+    { label: "Ubicación", value: "Guatemala", icon: "📍" },
+  ].map((item) => (
+    <div
+      key={item.label}
+      className="p-4 rounded-2xl text-center flex flex-col justify-center items-center"
+      style={{ 
+        backgroundColor: "rgba(255,255,255,0.05)", 
+        border: "1px solid rgba(255,255,255,0.07)",
+        minWidth: 0 // Importante para que el contenedor respete el ancho del grid
+      }}
+    >
+      <div style={{ fontSize: "1.5rem", marginBottom: 6 }}>{item.icon}</div>
+      <div style={{ 
+        fontSize: "0.7rem", 
+        color: "rgba(255,255,255,0.4)", 
+        fontWeight: 600, 
+        textTransform: "uppercase", 
+        letterSpacing: "0.06em" 
+      }}>
+        {item.label}
+      </div>
+      <div style={{ 
+        fontSize: "0.75rem", // Reducido un poco para asegurar que quepa
+        color: "rgba(255,255,255,0.8)", 
+        fontWeight: 600, 
+        marginTop: 4,
+        whiteSpace: "nowrap", // Evita que el texto salte a la siguiente línea
+        overflow: "hidden",   // Por seguridad, si el cuadro es MUY pequeño
+        textOverflow: "ellipsis", // Si de plano no cabe, añade "..." al final
+        width: "100%"         // Asegura que use todo el ancho del cuadro
+      }}>
+        {item.value}
+      </div>
+    </div>
+  ))}
+</div>
       </div>
     </section>
   );
