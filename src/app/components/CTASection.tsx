@@ -55,7 +55,7 @@ export function CTASection() {
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
           <a
-            href="mailto:contacto@aktibrands.com"
+            href="mailto:administracion@aktibrands.com"
             className="group flex items-center justify-center gap-3 px-8 py-4 rounded-full text-white transition-all hover:opacity-90 cursor-pointer"
             style={{ backgroundColor: "#FC0036", fontWeight: 700, fontSize: "1rem" }}
           >
@@ -68,7 +68,7 @@ export function CTASection() {
         {/* Contact info cards */}
         <div className="grid sm:grid-cols-3 gap-4 max-w-2xl mx-auto">
           {[
-            { label: "Email", value: "contacto@aktibrands.com", icon: "✉️" },
+            { label: "Email", value: "administracion@aktibrands.com", icon: "✉️" },
             { label: "Respuesta", value: "En menos de 24h", icon: "⚡" },
             { label: "Ubicación", value: "Guatemala", icon: "📍" },
           ].map((item) => (

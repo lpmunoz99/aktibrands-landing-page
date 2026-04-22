@@ -12,7 +12,7 @@ const footerLinks = [
   },
   {
     title: "Contacto",
-    links: ["contacto@aktibrands.com", "Guatemala", "Cotizar ahora"],
+    links: ["administracion@aktibrands.com", "Guatemala", "Cotizar ahora"],
   },
 ];
 
