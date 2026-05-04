@@ -7,8 +7,8 @@ const activations = [
     icon: Monitor,
     accent: "#47C9A2",
     description:
-      "Pantalla táctil adaptable para ruleta con premios o memoría. Incluye branding de la marca tanto en el mupie como la personalización del juego.",
-    details: ["Ruleta con premios", "Juego de memoría", "Branding personalizado en el tótem", "Interfaz totalmente customizable"],
+      "Pantalla táctil adaptable con memoría. Incluye branding de la marca tanto en el mupie como la personalización del juego.",
+    details: ["Juego de memoría", "Branding personalizado en el tótem", "Interfaz totalmente customizable"],
     image: "/neuro-challenge.jpg", // <-- Reemplaza con el nombre de tu imagen
   },
   {
@@ -131,7 +131,8 @@ export function ActivationsSection() {
           })}
         </div>
 
-        {/* Schedule note */}
+        {/* Schedule note 
+        
         <div
           className="mt-12 p-6 rounded-2xl text-center"
           style={{ backgroundColor: "#f7f7f7", border: "1.5px solid rgba(0,0,0,0.06)" }}
@@ -143,6 +144,7 @@ export function ActivationsSection() {
             <span style={{ color: "#47C9A2", fontWeight: 800 }}>3 meses</span> para mejores resultados
           </p>
         </div>
+        */}
       </div>
     </section>
   );
